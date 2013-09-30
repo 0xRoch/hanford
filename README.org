@@ -1,0 +1,3 @@
+* Hanford
+
+  A dummy project which triggers [[SCCT/scct#17]].
