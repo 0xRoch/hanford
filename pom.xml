@@ -33,17 +33,11 @@
     <profiles>
         <profile>
             <id>coverage</id>
-            <repositories>
-                <repository>
-                    <id>scct repository</id>
-                    <url>http://mtkopone.github.com/scct/maven-repo</url>
-                </repository>
-            </repositories>
             <dependencies>
                 <dependency>
-                    <groupId>reaktor</groupId>
-                    <artifactId>scct_2.9.1</artifactId>
-                    <version>0.2-SNAPSHOT</version>
+                    <groupId>com.github.scct</groupId>
+                    <artifactId>scct_2.9.2</artifactId>
+                    <version>0.2</version>
                 </dependency>
             </dependencies>
             <build>
@@ -71,9 +65,9 @@
                                 <configuration>
                                     <compilerPlugins>
                                         <compilerPlugin>
-                                            <groupId>reaktor</groupId>
-                                            <artifactId>scct_2.9.1</artifactId>
-                                            <version>0.2-SNAPSHOT</version>
+                                            <groupId>com.github.scct</groupId>
+                                            <artifactId>scct_2.9.2</artifactId>
+                                            <version>0.2</version>
                                         </compilerPlugin>
                                     </compilerPlugins>
                                 </configuration>
