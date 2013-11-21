@@ -63,7 +63,11 @@
                             <execution>
                                 <id>main-scalac</id>
                                 <configuration>
-                                    <compilerPlugins>
+                                <args>
+                                  <args>-P:scct:projectId:${project.name}</args>
+                                  <args>-P:scct:basedir:${project.basedir}</args>
+                                </args>
+                                    <compilerPlugins>                               
                                         <compilerPlugin>
                                             <groupId>com.github.scct</groupId>
                                             <artifactId>scct_2.9.2</artifactId>
