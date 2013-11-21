@@ -37,7 +37,7 @@
                 <dependency>
                     <groupId>com.github.scct</groupId>
                     <artifactId>scct_2.9.2</artifactId>
-                    <version>0.2</version>
+                    <version>0.2.1</version>
                 </dependency>
             </dependencies>
             <build>
@@ -71,7 +71,7 @@
                                         <compilerPlugin>
                                             <groupId>com.github.scct</groupId>
                                             <artifactId>scct_2.9.2</artifactId>
-                                            <version>0.2</version>
+                                            <version>0.2.1</version>
                                         </compilerPlugin>
                                     </compilerPlugins>
                                 </configuration>
